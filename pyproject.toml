@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "dataproject"
+version = "0.1.0"
+description = ""
+authors = ["Luciano Filho <lvgalvaofilho@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "=3.11.3"
+faker = "^19.6.2"
+pandas = "^2.1.1"
+pytest = "^7.4.2"
+openpyxl = "^3.1.2"
+isort = "^5.12.0"
+pre-commit = "^3.4.0"
+black = "^23.9.1"
+mkdocstrings = "^0.23.0"
+pip-audit = "^2.6.1"
+taskipy = "^1.12.0"
+
+[tool.isort]
+profile = "black"
+known_third_party = []
+
+[tool.poetry.group.dev.dependencies]
+mkdocs = "^1.5.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.taskipy.tasks]
+format = """
+isort .
+black .
+"""
+kill = "kill -9 $(lsof -t -i :8000)"
+test = "pytest -v"
+run = """
+python3 app/main.py
+"""
+doc = "mkdocs serve"
