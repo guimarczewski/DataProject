@@ -1,12 +1,12 @@
 """Test integration"""
 
-import them
+import os
 import shutil
 import tempfile
 
 import pandas as pd
 
-from app.ETL import pipeline_complete
+from app.ETL import pipeline_completa
 
 
 def test_integration():

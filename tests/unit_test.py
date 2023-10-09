@@ -1,6 +1,6 @@
 """Tests for unit functionalities."""
 
-import them
+import os
 
 import pandas as pd
 import pytest
