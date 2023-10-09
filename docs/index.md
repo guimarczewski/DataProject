@@ -1,4 +1,4 @@
-# Doc 'Data Project from Scratch'
+# Data Project from Scratch
 
 ![Flow](static/fluxo.png)
 
@@ -8,7 +8,7 @@ Additionally, this documentation can be integrated into Confluence or an interna
 
 ## Sections
 
-- [Doc 'How to structure a project from scratch'](#doc-how-to-structure-a-project-from-scratch)
+- [How to structure a project from scratch](#doc-how-to-structure-a-project-from-scratch)
    - [Sections](#sections)
    - [Introduction](#introduction)
    - [Installation Guide](#installation-guide)

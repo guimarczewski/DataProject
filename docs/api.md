@@ -66,3 +66,4 @@ def consolidate_excels(input_folder: str, output_folder: str, filename: str) -> 
     Returns:
         None
     """
+```
