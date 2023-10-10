@@ -1,25 +1,25 @@
-# Data Project
+# DataProject
 
-## Sobre o Projeto
+## About the project
 
-Este repositório é uma parte integrante do workshop "Como estruturar um projeto de dados do Zero".
+This repository is an integral part of the "How to Structure a Data Project from Scratch" workshop.
 
-### Objetivos:
+### Goals:
 
-* **Entender a estrutura padrão de projetos**: Organização de diretórios, como o código-fonte, testes, documentação, entre outros.
+* **Understand the standard project structure**: Organization of directories, such as source code, tests, documentation, among others.
 
-* **Estruturas padrões em projetos de dados**: Refatoração do projeto utilizando classes, módulos e boas práticas em uma ETL.
+* **Standard structures in data projects**: Project refactoring using classes, modules and best practices in an ETL.
 
-* **Ambiente Virtuais**: Criação de ambiente virtuais utilizando o Pyenv e Poetry
+* **Virtual Environment**: Creation of virtual environments using Pyenv and Poetry
 
-* **Testes com Pytest**: Garanta que seu código funcione como esperado, criando testes unitários e de integração.
+* **Tests with Pytest**: Ensure your code works as expected by creating unit and integration tests.
 
-* **Documentação com MKDocs**: Documentação do projeto com MKDocs e publicação no [GitHub Pages](https://guimarczewski.github.io/DataProject/)
+* **Documentation with MKDocs**: Project documentation with MKDocs and publication on [GitHub Pages](https://guimarczewski.github.io/DataProject/)
 
-* **Automatização e CI/CD**: Configurar rotinas de integração e entrega contínua para manter a qualidade do projeto utilizando GitHub Actions.
+* **Automation and CI/CD**: Configure integration and continuous delivery routines to maintain project quality using GitHub Actions.
 
 
-### Instalação e Configuração
+### Installation and Configuration
 
 1. Clone the repository:
 
