@@ -8,7 +8,7 @@ import pandas as pd
 
 def extract_excel(input_folder):
     """
-    function to extract data from Excel files.
+    Extract data from Excel files.
 
     type: input_folder: str
     """

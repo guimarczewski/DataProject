@@ -1,17 +1,22 @@
-# Welcome to MkDocs
+# Data Project from Scratch
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+![Flow](static/fluxo.png)
 
-## Commands
+This is an example project dedicated to demonstrating refactoring practices. In this space, you will find an in-depth description of ETL, installation instructions, answers to frequently asked questions, and more. Whether you are a collaborator or simply someone interested in the project, we hope you find this documentation useful.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Additionally, this documentation can be integrated into Confluence or an internal intranet, facilitating access and collaboration for all team members.
 
-## Project layout
+## Sections
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [How to structure a project from scratch](#doc-how-to-structure-a-project-from-scratch)
+   - [Sections](#sections)
+   - [Introduction](#introduction)
+   - [Installation Guide](#installation-guide)
+
+## Introduction
+
+The objective of this project is to demonstrate how refactoring techniques can be applied to improve code quality, optimize performance and make software more maintainable. Refactoring is essential for keeping code clean and understandable, allowing teams to maintain high development velocity over time.
+
+## Installation Guide
+
+Here, you will find detailed instructions on how to install and configure the project in your local environment. Following the instructions correctly ensures that you have a smooth experience when working on the project.
