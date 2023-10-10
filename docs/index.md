@@ -6,6 +6,8 @@ This is an example project dedicated to demonstrating refactoring practices. In 
 
 Additionally, this documentation can be integrated into Confluence or an internal intranet, facilitating access and collaboration for all team members.
 
+To access GitHub repository, click [here](https://github.com/guimarczewski/DataProject).
+
 ## Sections
 
 - [Data Project from Scratch](#Data Project from Scratch)
