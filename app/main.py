@@ -1,6 +1,6 @@
 """Main pipeline."""
 
-import """ """
+import """ a """
 import os
 
 from ETL import pipeline_completa
