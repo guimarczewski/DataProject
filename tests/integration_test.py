@@ -30,7 +30,7 @@ def test_integration():
         sample_data.to_excel(sample_file_path, index=False)
 
         # Execute the consolidate_excels function
-        pipeline_complete(input_folder, output_folder, "consolidated.xlsx")
+        pipeline_completa(input_folder, output_folder, "consolidated.xlsx")
 
         # Check if the output file exists and has the expected content
         output_file_path = os.path.join(output_folder, "consolidated.xlsx")

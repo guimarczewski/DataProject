@@ -49,7 +49,7 @@ def test_extract_no_files(tmpdir):
 
 def test_transform():
     """Test the transformation of dataframes."""
-    date = [df1, df2]
+    data = [df1, df2]
     consolidated_df = transforma_em_um_unico(data)
     assert len(consolidated_df) == 6  # 3 rows from df1 + 3 rows from df2
     assert list(consolidated_df.columns) == ["A", "B"]
