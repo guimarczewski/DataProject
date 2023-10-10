@@ -1,11 +1,11 @@
-"""module with all the necessary transformations to consolidate the input data."""
+"""Do the necessary transformations to consolidate the input data."""
 
 import pandas as pd
 
 
 def transforma_em_um_unico(all_data):
     """
-    function to consolidate data from Excel files.
+    Consolidates data from Excel files.
 
     type: all_data: list
     """

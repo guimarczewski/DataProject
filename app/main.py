@@ -1,6 +1,5 @@
 """Main pipeline."""
 
-import """ a """
 import os
 
 from ETL import pipeline_completa
@@ -8,7 +7,7 @@ from utils import generate_absenteeism_data
 
 
 def generate_excel_files(files: int = 10):
-    """generate n excel files."""
+    """Generate n excel files."""
     for i in range(files):
         df = generate_absenteeism_data()
         output_path = os.path.join("data/input", f"absenteeism_data_{i}.xlsx")
