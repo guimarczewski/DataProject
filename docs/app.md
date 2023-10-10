@@ -1,4 +1,4 @@
-# API Documentation
+# APP Documentation
 
 Below you will find details about the functions and modules of the project.
 
