@@ -1,4 +1,4 @@
-site_name: Seu Projeto
+site_name: ETL Project
 nav:
   - Home: index.md
   - API: api.md
