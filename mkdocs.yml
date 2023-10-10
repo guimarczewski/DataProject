@@ -1,7 +1,7 @@
 site_name: ETL Project
 nav:
   - Home: index.md
-  - API: app.md
+  - APP: app.md
   - Tests: tests.md
 plugins:
   - search
